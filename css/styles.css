@@ -188,6 +188,23 @@ button {
   letter-spacing: 0.02em;
 }
 
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-subtitle {
+  margin-bottom: 8px;
+}
+
+.features-text {
+  margin-bottom: 0;
+}
+
 /* TITLES */
 .section-title {
   font-weight: 700;
