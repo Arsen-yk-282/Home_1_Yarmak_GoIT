@@ -30,5 +30,26 @@
     <symbol id="icon-linkedin" viewBox="0 0 24 24">
       <path d="M4 8h4v13H4zM6 3a2.3 2.3 0 1 1 0 4.6A2.3 2.3 0 0 1 6 3zm5 5h4v2c.6-1.1 2-2.2 4.1-2.2 4.4 0 5.2 2.9 5.2 6.6V21h-4v-5.9c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1v6h-4V8z"/>
     </symbol>
+
+    <symbol id="icon-person" viewBox="0 0 32 32">
+      <path d="M16 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/>
+      <path d="M4 30a12 12 0 0 1 24 0H4z"/>
+    </symbol>
+    <symbol id="icon-phone" viewBox="0 0 32 32">
+      <path d="M24.7 20.1c-1.7 0-3.3-.3-4.8-.8-.7-.2-1.4-.1-1.9.4l-2.1 2.1c-3.7-2-6.8-5-8.6-8.6l2.1-2.1c.5-.5.7-1.2.4-1.9-.5-1.5-.8-3.1-.8-4.8C9 3.6 8.4 3 7.6 3H4.3C3.6 3 3 3.6 3 4.4 3 17.9 14.1 29 27.6 29c.8 0 1.4-.6 1.4-1.3v-3.3c0-.8-.6-1.4-1.4-1.4h-2.9z"/>
+    </symbol>
+    <symbol id="icon-email" viewBox="0 0 32 32">
+      <path d="M4 7h24c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2zm12 11 12-8H4l12 8zm0 3L4 13v10h24V13l-12 8z"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 8 8">
+      <path d="M7.5 1.2 6.8.5 4 3.3 1.2.5.5 1.2 3.3 4 .5 6.8l.7.7L4 4.7l2.8 2.8.7-.7L4.7 4l2.8-2.8z"/>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 16 16">
+      <path d="M6.4 11.2 2.8 7.6 1.6 8.8l4.8 4.8 8-8-1.2-1.2-6.8 6.8z"/>
+    </symbol>
+    <symbol id="icon-send" viewBox="0 0 24 24">
+      <path d="M2 21 23 12 2 3v7l15 2-15 2v7z"/>
+    </symbol>
+
   </defs>
 </svg>
