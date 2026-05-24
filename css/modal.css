@@ -47,7 +47,7 @@
   width: 24px;
   height: 24px;
   padding: 0;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 50%;
   background-color: #e7e9fc;
   cursor: pointer;
@@ -201,6 +201,7 @@
 
 .modal-privacy-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .modal-submit-button {
