@@ -227,3 +227,10 @@
 .modal-submit-button:focus {
   background-color: #404bbf;
 }
+
+
+@media screen and (min-width: 768px) {
+  .modal {
+    padding: 72px 24px 24px;
+  }
+}
