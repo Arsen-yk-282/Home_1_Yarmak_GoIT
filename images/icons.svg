@@ -51,5 +51,6 @@
       <path d="M2 21 23 12 2 3v7l15 2-15 2v7z"/>
     </symbol>
 
+  <symbol id="icon-menu" viewBox="0 0 32 32"><path d="M4 8h24v2H4V8zm0 7h24v2H4v-2zm0 7h24v2H4v-2z"/></symbol>
   </defs>
 </svg>

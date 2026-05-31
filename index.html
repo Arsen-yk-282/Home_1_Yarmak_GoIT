@@ -47,6 +47,12 @@
             </li>
           </ul>
         </address>
+
+        <button class="mobile-menu-open" type="button" aria-label="Open mobile menu">
+          <svg class="mobile-menu-open-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -124,6 +130,7 @@
             <li class="team-item">
               <img
                 src="./images/mark_guerrero.jpg"
+                    srcset="./images/mark_guerrero.jpg 1x, ./images/mark_guerrero@2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 class="team-image"
@@ -168,6 +175,7 @@
             <li class="team-item">
               <img
                 src="./images/tom_ford.jpg"
+                    srcset="./images/tom_ford.jpg 1x, ./images/tom_ford@2x.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 class="team-image"
@@ -212,6 +220,7 @@
             <li class="team-item">
               <img
                 src="./images/camila_garcia.jpg"
+                    srcset="./images/camila_garcia.jpg 1x, ./images/camila_garcia@2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
                 class="team-image"
@@ -256,6 +265,7 @@
             <li class="team-item">
               <img
                 src="./images/daniel_wilson.jpg"
+                    srcset="./images/daniel_wilson.jpg 1x, ./images/daniel_wilson@2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
                 class="team-image"
@@ -309,6 +319,7 @@
                 <div class="portfolio-thumb">
                   <img
                     src="./images/banking_app.jpg"
+                    srcset="./images/banking_app.jpg 1x, ./images/banking_app@2x.jpg 2x"
                     alt="Banking App"
                     width="360"
                     class="portfolio-image"
@@ -331,6 +342,7 @@
                 <div class="portfolio-thumb">
                   <img
                     src="./images/cashless_payment.jpg"
+                    srcset="./images/cashless_payment.jpg 1x, ./images/cashless_payment@2x.jpg 2x"
                     alt="Cashless Payment"
                     width="360"
                     class="portfolio-image"
@@ -353,6 +365,7 @@
                 <div class="portfolio-thumb">
                   <img
                     src="./images/meditaion_app.jpg"
+                    srcset="./images/meditaion_app.jpg 1x, ./images/meditaion_app@2x.jpg 2x"
                     alt="Meditation App"
                     width="360"
                     class="portfolio-image"
@@ -375,6 +388,7 @@
                 <div class="portfolio-thumb">
                   <img
                     src="./images/taxi_service.jpg"
+                    srcset="./images/taxi_service.jpg 1x, ./images/taxi_service@2x.jpg 2x"
                     alt="Taxi Service"
                     width="360"
                     class="portfolio-image"
@@ -397,6 +411,7 @@
                 <div class="portfolio-thumb">
                   <img
                     src="./images/screen_illustrations.jpg"
+                    srcset="./images/screen_illustrations.jpg 1x, ./images/screen_illustrations@2x.jpg 2x"
                     alt="Screen Illustrations"
                     width="360"
                     class="portfolio-image"
@@ -419,6 +434,7 @@
                 <div class="portfolio-thumb">
                   <img
                     src="./images/online_courses.jpg"
+                    srcset="./images/online_courses.jpg 1x, ./images/online_courses@2x.jpg 2x"
                     alt="Online Courses"
                     width="360"
                     class="portfolio-image"
@@ -508,6 +524,68 @@
         </div>
       </div>
     </footer>
+
+    <div class="mobile-menu">
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-close" type="button" aria-label="Close mobile menu">
+          <svg class="mobile-menu-close-icon" width="8" height="8" fill="#2e2f42">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-list">
+            <li><a class="mobile-menu-link current" href="./index.html">Studio</a></li>
+            <li><a class="mobile-menu-link" href="#portfolio">Portfolio</a></li>
+            <li><a class="mobile-menu-link" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <div class="mobile-menu-bottom">
+          <address class="mobile-menu-contacts">
+            <ul class="mobile-menu-contacts-list">
+              <li>
+                <a class="mobile-menu-phone" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              </li>
+              <li>
+                <a class="mobile-menu-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+            </ul>
+          </address>
+
+          <ul class="mobile-menu-social-list">
+            <li class="mobile-menu-social-item">
+              <a class="mobile-menu-social-link" href="">
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a class="mobile-menu-social-link" href="">
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a class="mobile-menu-social-link" href="">
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a class="mobile-menu-social-link" href="">
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <div id="modal" class="backdrop">
       <div class="modal">
